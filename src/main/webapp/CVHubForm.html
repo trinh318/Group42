@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Hub - Nộp CV của bạn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="intro-section">
+            <h2>Chào mừng đến với CV Hub</h2>
+            <p>Nộp CV của bạn để kết nối với các nhà tuyển dụng hàng đầu. Hãy đảm bảo rằng CV của bạn luôn được cập nhật và nêu bật những thành tựu quan trọng nhất.</p>
+        </div>
+
+        <div class="form-section">
+            <h2>Nộp CV của bạn</h2>
+            <form class="cv-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Họ và tên</label>
+                    <input type="text" id="name" name="name" placeholder="Nhập họ và tên của bạn" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Địa chỉ Email</label>
+                    <input type="email" id="email" name="email" placeholder="Nhập địa chỉ email của bạn" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Số điện thoại</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại của bạn" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="position">Vị trí ứng tuyển</label>
+                    <input type="text" id="position" name="position" placeholder="Nhập vị trí bạn ứng tuyển" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cv">Tải lên CV</label>
+                    <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="linkedin">Hồ sơ LinkedIn (Tuỳ chọn)</label>
+                    <input type="url" id="linkedin" name="linkedin" placeholder="Nhập URL LinkedIn của bạn">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Thông tin thêm</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Hãy kể thêm về bản thân bạn..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn-submit">Nộp CV</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
